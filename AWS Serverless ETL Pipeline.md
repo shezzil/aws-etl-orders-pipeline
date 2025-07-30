@@ -1,4 +1,4 @@
-# 🛠️ AWS Serverless ETL Pipeline for E-Commerce Order Data
+#  AWS Serverless ETL Pipeline for E-Commerce Order Data
 
 This project demonstrates a complete **end-to-end serverless ETL (Extract, Transform, Load) pipeline** built on AWS. It processes incoming JSON order data, flattens nested structures, converts it into Parquet format, and stores it in a data lake for analysis using Amazon Athena.
 
@@ -42,7 +42,7 @@ This project demonstrates a complete **end-to-end serverless ETL (Extract, Trans
 ##  Key Features
 
 -  **Data Ingestion**: JSON order data uploaded to an S3 bucket.
-- ⚙ **Serverless ETL with AWS Lambda**: 
+-  **Serverless ETL with AWS Lambda**: 
   - Flattens nested customer and product data.
   - Converts JSON to efficient columnar **Parquet** format.
 -  **Data Lake Storage**: Transformed data stored in a separate S3 location.
