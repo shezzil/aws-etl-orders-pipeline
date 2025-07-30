@@ -4,7 +4,7 @@ This project demonstrates a complete **end-to-end serverless ETL (Extract, Trans
 
 ---
 
-## 🚀 Architecture Overview
+##  Architecture Overview
 
       +-------------+
       | JSON Orders |
@@ -39,19 +39,19 @@ This project demonstrates a complete **end-to-end serverless ETL (Extract, Trans
 
 ---
 
-## 🧠 Key Features
+##  Key Features
 
-- 📂 **Data Ingestion**: JSON order data uploaded to an S3 bucket.
-- ⚙️ **Serverless ETL with AWS Lambda**: 
+-  **Data Ingestion**: JSON order data uploaded to an S3 bucket.
+- ⚙ **Serverless ETL with AWS Lambda**: 
   - Flattens nested customer and product data.
   - Converts JSON to efficient columnar **Parquet** format.
-- 🪣 **Data Lake Storage**: Transformed data stored in a separate S3 location.
-- 🔍 **AWS Glue Crawler**: Scans parquet files and catalogs schema.
-- 🧾 **Athena Integration**: Query-ready data via SQL interface.
+-  **Data Lake Storage**: Transformed data stored in a separate S3 location.
+-  **AWS Glue Crawler**: Scans parquet files and catalogs schema.
+-  **Athena Integration**: Query-ready data via SQL interface.
 
 ---
 
-## 🧩 Technologies Used
+##  Technologies Used
 
 | Service                                  | Purpose                                             |
 |------------------------------------------|-----------------------------------------------------|
@@ -66,9 +66,9 @@ This project demonstrates a complete **end-to-end serverless ETL (Extract, Trans
 
 ---
 
-## 📌 Setup & Usage
+##  Setup & Usage
 
-> ⚠️ This project assumes your AWS infrastructure is already configured (S3, Lambda, IAM Roles, Glue, Athena).
+> ⚠ This project assumes your AWS infrastructure is already configured (S3, Lambda, IAM Roles, Glue, Athena).
 
 ### 1. Upload Raw JSON to S3
 Upload JSON order data into the source S3 bucket (e.g. `orders-input-bucket/`).
